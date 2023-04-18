@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #4285F4;
+}
+.wrapper {
+    background: #fff;
+    width: 450px;
+    padding: 28px;
+    border-radius: 7px;
+}
+.wrapper .pass-field {
+    height: 65px;
+    width: 100%;
+    position: relative;
+}
+.mail-field input {
+    width: 100%;
+    height: 100%;
+    padding: 20px 17px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+}
+.pass-field input {
+    width: 100%;
+    height: 100%;
+    padding: 0 17px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+.pass-field i {
+    right: 18px;
+    top: 50%;
+    color: #999;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.wrapper .content {
+    margin: 20px 0 10px;
+}
+.content p {
+    font-size: 18px;
+}
+.content .requirement-list {
+    margin-top: 20px;
+}
+.requirement-list li {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.requirement-list li i {
+    font-size: 10px;
+    color: #aaa;
+    width: 20px;
+}
+.requirement-list li span {
+    margin-left: 12px;
+}
+.content button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    background: #4285F4;
+}
+.requirement-list li.valid i {
+    font-size: 12px;
+    color: #00ac00;
+}
+.requirement-list li.valid span {
+    color: #999;
+}
